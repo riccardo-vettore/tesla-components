@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesla Components</title>
+    <link rel="stylesheet" href="src/index.css" />
+    <script type="module" src="/src/components/tesla-button/tesla-button.ts"></script>
+    <script type="module" src="/src/components/tesla-home-section/tesla-home-section.ts"></script>
+  </head>
+  <body>
+    <tesla-home-section
+            backgroundImgUrl="https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD"
+            modelName="Model 3"
+            showSubTitle
+            subTitle="Prenota un test drive"
+            subTitleHRef="https://www.tesla.com/drive"
+            disclaimer="5 stelle nella valutazione di sicurezza Euro NCAP"
+            showDownArrow
+    >
+      <tesla-button variant="dark">Ordine personalizzato</tesla-button>
+      <tesla-button variant="neutral">Esplora in pronta consegna</tesla-button>
+    </tesla-home-section>
+    <tesla-home-section
+            backgroundImgUrl="https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD"
+            showSubTitle
+            subTitle="Prenota un test drive"
+            disclaimer="5 stelle nella valutazione di sicurezza Euro NCAP"
+    >
+      <tesla-button variant="dark">Ordine personalizzato</tesla-button>
+    </tesla-home-section>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+:root {
+    --tesla-white: #ffffff;
+    --tesla-green: #12bb00;
+    --tesla-blue20: #3457b1;
+    --tesla-blue30: #3e6ae1;
+    --tesla-grey10: #121a20;
+    --tesla-grey15: #171a20cc;
+    --tesla-grey20: #393c41;
+    --tesla-grey65: #eeeeee;
+    --tesla-grey70: #f4f4f4a5;
+    --tesla-grey75: #f4f4f4;
+    --tesla-red30: #ed4e3b;
+    --tesla-yellow: #fbb01b;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
