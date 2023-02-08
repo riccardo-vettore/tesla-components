@@ -1,10 +1,10 @@
 # [Tesla components](https://github.com/riccardo-vettore/tesla-components) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/riccardo-vettore/tesla-components/LICENSE) [![npm version](https://img.shields.io/npm/v/tesla-components)](https://www.npmjs.com/package/tesla-components)
 
-**Tesla components is a set of Web Components made for recreate Tesla Web App.**
+**Tesla components is a set of Web Components aimed at recreating the Tesla Web App.**
 
 - They have been created with <a href="https://lit.dev">Lit</a>
 - Some components extend <a href="https://lion-web.netlify.app">Lion</a>
-- Project have been created with <a href="https://vitejs.dev">Vite</a>
+- Project has been created with <a href="https://vitejs.dev">Vite</a>
 
 ## How to install
 To use tesla components within your project, you will first need to install it as a dependency.
