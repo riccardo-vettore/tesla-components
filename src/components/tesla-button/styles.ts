@@ -98,6 +98,16 @@ export default css`
         color: var(--tesla-white);
     }
 
+    :host([variant='menu']) {
+        color: var(--tesla-navbar-item-color);
+        padding: 4px 13px;
+        background-color: transparent;
+    }
+
+    :host([variant='menu']:hover) {
+        background-color: var(--tesla-grey30);
+    }
+
     :host([rounded]) {
         border-radius: 9999px;
         padding: 0.625rem 1rem;
@@ -115,5 +125,15 @@ export default css`
     :host([disabled]) {
         cursor: not-allowed;
         opacity: 0.5;
+    }
+
+    @media (max-width: 1199px) {
+        :host([variant='menu']) {
+            background-color: var(--tesla-grey30);
+        }
+
+        :host([variant='menu']:hover) {
+            background-color: #67666644;
+        }
     }
 `;

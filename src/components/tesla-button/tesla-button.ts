@@ -22,6 +22,7 @@ export class TeslaButton extends LionButton {
         | 'outline-dark'
         | 'outline-light'
         | 'danger'
+        | 'menu'
         | 'text' = 'default';
 
     @property({ reflect: true, type: String }) size: 'small' | 'large' =
