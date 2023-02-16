@@ -1,8 +1,8 @@
 import { html, LitElement } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
-import teslaNavbarItemStyles from './styles';
 import { createComponent } from '@lit-labs/react';
 import React from 'react';
+import teslaNavbarItemStyles from './styles';
 
 @customElement('tesla-navbar-item')
 export class TeslaNavbarItem extends LitElement {
@@ -31,7 +31,7 @@ declare global {
 }
 
 export const TeslaNavbarItemReact = createComponent({
-    tagName: 'tesla-navbar',
+    tagName: 'tesla-navbar-item',
     react: React,
     elementClass: TeslaNavbarItem
 });

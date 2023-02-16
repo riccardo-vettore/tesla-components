@@ -5,6 +5,8 @@ export default css`
         position: fixed;
         top: 0;
         width: 100%;
+        z-index: 1;
+        backdrop-filter: blur(10px);
     }
 
     header {
